@@ -1,4 +1,4 @@
-// u64mer.h -- packin char based 31-mers into uint64_t and back
+// u64mer.h -- packing char based 31-mers into uint64_t and back
 //     2bit encoding used, only ACGT allowed, 64-bit flags error
 
 #ifndef _U64MER_H_
