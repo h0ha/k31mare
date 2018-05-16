@@ -13,7 +13,7 @@ I'm building in
 with
     * gcc version 7.2.0 (Ubuntu 7.2.0-8ubuntu3.2) 
 
-I'm using git clone https://github.com/sparsehash/sparsehash-c11.git .
+I'm using https://github.com/sparsehash/sparsehash-c11.git .
 Should be already cloned in ext if not see below.
 
 run the following commands:
@@ -23,7 +23,7 @@ tar -zxf k31mare.tgz
 cd k31mare
 
 # clone sparce hash if not in ext
-git clone https://github.com/sparsehash/sparsehash-c11.git ext/sparsehash-c1
+git clone https://github.com/sparsehash/sparsehash-c11.git ext/sparsehash-c11
 
 # compile
 g++ -std=c++14 -m64 -fopenmp  -O4 -I ext/sparsehash-c11 k31mare.cpp  processing.cpp io.cpp -o k31mare
